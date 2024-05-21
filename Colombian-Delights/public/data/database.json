@@ -1,39 +1,14 @@
 {
-    "comidas": [
-        {
-            "name": "picada"
-
-        }
-    ],
-
-
-    "users":[
-        {
-            "name" : "pablo lopez",
-            "email": "pabloinprogramacion@gmai.com",
-            "password": "Pablo1234"
-            
-        },
-
-        {
-            "name" : "camilo barreneche",
-            "email": "barrecami@gmail.com",
-            "password": "Camilo1234"
-            
-        },
-
-        {
-            "name" : "oscar muñoz",
-            "email": "oscaralbertomunozvanegas@gmail.com",
-            "password": "Oscar1234"
-            
-        },
-        {
-            "name" : "shirly mejia",
-            "email": "mejiaacostashirlipaola@gmail.com",
-            "password": "Shirly1234"
-            
-        }
-
+    "users": [
+      {
+        "id": 1,
+        "username": "user1",
+        "password": "1234" 
+      },
+      {
+        "id": 2,
+        "username": "user2",
+        "password": "1234" 
+      }
     ]
-}
+  }
