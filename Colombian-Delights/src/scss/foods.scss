@@ -1,0 +1,17 @@
+section {
+  background-color: gray;
+  padding: 2rem; // Ajusta el valor según tus necesidades
+  text-align: center;
+  max-width: 800px; // Ancho máximo para hacerlo responsive
+  margin: 0 auto; // Centrar horizontalmente
+
+  h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: white;
+  }
+}
