@@ -9,13 +9,14 @@
     href="https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css" />
   <link rel="stylesheet"
     href="https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css" />
-  <link rel="stylesheet" href="../scss/styles.scss">
+  <link rel="stylesheet" href="../scss/profile.css">
   <title>Colombian Delights</title>
 </head>
 
 <body>
+  <!-- Create the header which is a common part of our website -->
   <header>
-    <div class="px-3 py-2 text-bg-dark">
+    <div class="px-3 py-2 bg-black bg-opacity-25">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
           <img class="bi me-2" width="300" height="100" role="img" aria-label="Colombia-Deli"
@@ -60,11 +61,11 @@
         </ul>
       </div>
     </div>
-
   </header>
 
   <main>
     <br />
+    <!-- Main menu of the restaurant with a carousel and a brief description of the place -->
     <h2 class="container px-4 text-center bg-primary">La cocina de Doña Marta</h2>
     <br />
     <section class="primera-seccion">
@@ -100,23 +101,50 @@
             emprendedora audaz ha conquistado el paladar de los transeúntes con
             sus delicias caseras.
           </h4>
+          <br>
+          <!-- Contact button in case you want to recieve information -->
+          <form action="https://wa.me/573017325327/?text=Hola, bienvenido a la línea de atención" method="get"
+            target="_blank">
+            <button type="submit" class="btn btn-warning">
+              Contacto
+            </button>
+          </form>
+        </div>
+        <!-- More images below about the products sold -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="../../public/img/products/imagen 50.webp" class="img-fluid" alt="Imagen 1" />
+            </div>
+            <div class="col-sm-4">
+              <img src="../../public/img/products/imagen 49.webp" class="img-fluid" alt="Imagen 2" />
+            </div>
+            <div class="col-sm-4">
+              <img src="../../public/img/products/imagen 48.webp" class="img-fluid" alt="Imagen 3" />
+            </div>
+          </div>
         </div>
       </article>
     </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="../../public/img/products/imagen 50.webp" class="img-fluid" alt="Imagen 1" />
+    <!-- Backgound about the begin of the restaurant -->
+    <section class="segunda-sesion">
+      <article class="card">
+        <div class="text-container">
+          <h2>Su historia</h2>
+          <p>Doña Marta era una mujer emprendedora y apasionada por la cocina desde joven. Con habilidades culinarias
+            heredadas de generaciones pasadas, decidió llevar su talento a las calles de su ciudad. Armada con una
+            pequeña carretilla y recetas tradicionales de su familia, comenzó a vender comida callejera.
+          </p>
         </div>
-        <div class="col-sm-4">
-          <img src="../../public/img/products/imagen 49.webp" class="img-fluid" alt="Imagen 2" />
+        <div class="img-container">
+          <figure>
+            <img src="" alt="" class="">
+          </figure>
         </div>
-        <div class="col-sm-4">
-          <img src="../../public/img/products/imagen 48.webp" class="img-fluid" alt="Imagen 3" />
-        </div>
-      </div>
-    </div>
+      </article>
+    </section>
+
   </main>
 
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
