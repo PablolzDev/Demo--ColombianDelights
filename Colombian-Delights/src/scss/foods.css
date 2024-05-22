@@ -1,0 +1,15 @@
+section {
+  background-color: 15171B;
+  padding: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+section h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+section p {
+  color: white;
+}/*# sourceMappingURL=foods.css.map */
