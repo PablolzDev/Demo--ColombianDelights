@@ -29,7 +29,7 @@ $--font-txt: 50px;
     font-size: 50px;
 }
 
-.segunda-sesion{
+.segunda-seccion{
     display: flex;
     flex-direction: row;
     background-color: $--secunday;
@@ -38,3 +38,15 @@ $--font-txt: 50px;
 .marticas{
     width: 400px;
 }
+
+.container-3images{
+    height: 0%;
+}
+
+.img-fluid{
+    height: 30px;
+}
+
+// #segunda-seccion2 {
+//     background-image: linear-gradient(to bottom, #212529, #FF9900, rgb(33, 37, 41));
+// }
