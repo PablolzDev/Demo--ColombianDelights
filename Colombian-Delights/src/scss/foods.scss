@@ -1,17 +1,41 @@
+
+//Section of introduction to the page
 section {
-  background-color: gray;
+
   padding: 2rem; // Ajusta el valor según tus necesidades
   text-align: center;
   max-width: 800px; // Ancho máximo para hacerlo responsive
   margin: 0 auto; // Centrar horizontalmente
-
+  white-space:nowrap;
+  
   h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 1rem;
+    
   }
 
   p {
     color: white;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 15px;
   }
+  // Importar la fuente "Roboto" en varios formatos
+  // @font-face {
+  //   font-family: "Roboto";
+  //   src: url("../assets/fonts/Roboto-Regular.woff2") format("woff2"),
+  //       url("../assets/fonts/Roboto-Regular.woff") format("woff");
+  //   font-weight: normal;
+  //   font-style: italic;
+  // }
+
+  // // Importar la fuente "Roboto Bold"
+  // @font-face {
+  //   font-family: "Roboto";
+  //   src: url("../assets/fonts/Roboto-Bold.woff2") format("woff2"),
+  //       url("../assets/fonts/Roboto-Bold.woff") format("woff");
+  //   font-weight: bold;
+  //   font-style: ita;
+  // }
 }

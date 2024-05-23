@@ -1,1 +1,1 @@
-{"version":3,"sources":["foods.scss","foods.css"],"names":[],"mappings":"AAAA;EACE,sBAAA;EACA,aAAA;EACA,kBAAA;EACA,gBAAA;EACA,cAAA;ACCF;ADCE;EACE,YAAA;EACA,iBAAA;EACA,mBAAA;ACCJ;ADEE;EACE,YAAA;ACAJ","file":"foods.css"}
+{"version":3,"sources":["foods.scss","foods.css"],"names":[],"mappings":"AAEA;EAEE,aAAA;EACA,kBAAA;EACA,gBAAA;EACA,cAAA;EACA,mBAAA;ACFF;ADIE;EACE,YAAA;EACA,iBAAA;EACA,mBAAA;ACFJ;ADME;EACE,YAAA;EACA,qBAAA;EACA,kBAAA;EACA,eAAA;ACJJ","file":"foods.css"}
