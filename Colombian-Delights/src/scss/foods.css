@@ -4,6 +4,7 @@ section {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
+  white-space: nowrap;
 }
 section h1 {
   color: white;
@@ -12,4 +13,7 @@ section h1 {
 }
 section p {
   color: white;
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 15px;
 }/*# sourceMappingURL=foods.css.map */
