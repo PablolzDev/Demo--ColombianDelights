@@ -1,14 +1,19 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 $--secunday: #FF9900;
 $--primary: rgba(0, 0, 0, 0.66);
+$--font-txt: 20px;
 
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
 }
+
 
 .sidebard {
     // background-color: $--secunday;
@@ -23,6 +28,8 @@ $--primary: rgba(0, 0, 0, 0.66);
 .sidebard img{
     width: 50rem;
     margin-top: -80px;
+    
+
 }
 
 .containerScroll {
@@ -105,7 +112,7 @@ $--primary: rgba(0, 0, 0, 0.66);
 }
 
 .imgs .container img{
-    width: 62rem;
+    width: 92rem;
     height: 400px;
     border-radius: 20px;
 }
@@ -122,4 +129,91 @@ $--primary: rgba(0, 0, 0, 0.66);
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 50px;}
+    font-size: 50px;
+}
+// ------ HEADER---------------------------
+
+header ul li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+// --- SECTION TEXT BANNER
+
+.container-text{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+ 
+    justify-content: center;
+}
+
+.container-text p{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+    white-space: wrap;
+
+   
+}
+
+.imgs .container img{
+    width: 60rem;
+}
+
+/* End of header*/
+/*==========About Section============*/
+#about{
+    padding: 40px;
+
+}
+
+.about{
+    margin: 30px 0;
+    display: flex;
+}
+.about-icon {
+    font-size: 60px;
+    color: black;
+    margin-right: 20px;
+}
+.about-icon img{
+    width: 100px;
+    border-radius: 10px;
+}
+.about-subtitle{
+    text-transform: capitalize;
+    color: $--secunday;
+    font-size: 25px;
+}
+.about-info{
+    margin-top: 10px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.about-icon:hover .fas,
+.about-subtitle:hover{
+ transition: transform 2s ease, color 2s ease;
+ transform: translateY(-10px);
+    color: #cd6100;
+    cursor: pointer;
+}
+@media screen and (min-width: 576px){
+    .about-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about{
+        flex: 0 0 calc(50% - 16px);
+    }
+}
+@media screen and (min-width:972px){
+    .about{
+        flex: 0 0 calc(33.3% - 16px);
+    }
+}
